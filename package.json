@@ -24,6 +24,16 @@
     ],
     "*.{md,html,yml,yaml,json}": "npm run lint:other:fix"
   },
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions",
+    "Firefox ESR",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all",
+    "not android > 0",
+    "not KaiOS > 0"
+  ],
   "dependencies": {
   },
   "devDependencies": {
